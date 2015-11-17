@@ -119,4 +119,32 @@ Owner: Annabel Sun
 Height: 5'0"
 Weight: 232 lbs
 
+ 2015-11-16 17:09:52 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master ↑1 ✓| → head -n 40 streets/Hart_Place | tail -n 1
+SEE INTERVIEW #47246024
 
+ 2015-11-16 17:09:57 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master ↑1 ✓| → head -n 179 streets/Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+ 2015-11-16 17:13:17 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery/interviews
+± |master ↑1 U:1 ✗| → cat interview-699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+ 2015-11-16 17:19:54 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master ↑1 U:1 ✗| → grep -C 3 "L337" vehicles
+ 2015-11-16 17:19:54 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master ↑1 U:1 ✗| → grep -C 3 "L337" vehicles
+
+ 2015-11-16 17:47:14 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery
+± |master ↑1 U:1 ✗| → grep -A5 "L337" mystery/vehicles 
+
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
