@@ -61,3 +61,62 @@ egrep -R '((Joe Germuska)|(Brian Boyer)|(Mike Bostock)|(Jeremy Bowers)|(John Kee
 # Not BB, wrong car manufacturer
 # JB, it is JB
 ```
+
+grep -C 3 CLUE crimescene  
+*******
+Crime Scene Report #912464709392
+********
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+
+
+*******
+--
+--
+*******
+Crime Scene Report #028615332953
+********
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+
+
+*******
+--
+--
+*******
+Crime Scene Report #575776622208
+********
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+*******
+Crime Scene Report #990314688882
+
+ 2015-11-16 16:11:59 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master ✓| → grep Annabel people
+
+Annabel Sun	F	26	Hart Place, line 40
+
+Annabel Church	F	38	Buckingham Place, line 179
+
+
+
+ 2015-11-16 16:47:54 ☆ |ruby-2.2.1| Thomass-MacBook-Air in ~/dev/command-line-mystery/mystery
+± |master U:1 ✗| → grep -C 3 "Annabel" vehicles
+
+--
+--
+License Plate L2E48EF
+Make: BMW
+Color: Orange
+Owner: Annabel Church
+Height: 5'5"
+Weight: 201 lbs
+
+--
+--
+License Plate 0O27BTD
+Make: Fiat
+Color: Yellow
+Owner: Annabel Sun
+Height: 5'0"
+Weight: 232 lbs
+
+
